@@ -1,7 +1,7 @@
 #!/bin/sh
 #reserve running with 16 CPUs for this job
 #$ -pe parallel 16
-#request 25GB of RAM HI
+#request 25GB of RAM 
 #$ -l h_vmem=25G
 #use /bin/bash to execute this script
 #$ -S /bin/bash
